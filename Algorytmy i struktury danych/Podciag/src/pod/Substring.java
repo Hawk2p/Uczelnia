@@ -28,20 +28,21 @@ public class Substring {
         int lenOne = getSubOne().length();
         int lenTwo = getSubTwo().length();
 
-        for(int i=1; i<=lenOne; i++){
-            for(int j=1; j<=lenTwo; j++){
-                if(subOne.charAt(i-1) == subTwo.charAt(j-1)){
-                    arr[i][j] = arr[i-1][j-1]+1;
+        for(int i=1; i<=lenOne; i++) {
+            for (int j = 1; j <= lenTwo; j++) {
+                if (subOne.charAt(i - 1) == subTwo.charAt(j - 1)) {
+                    arr[i][j] = arr[i - 1][j - 1] + 1;
                     arrChar[i][j] = '/';
-                } else if(arr[i-1][j] > arr[i][j-1]){
-                    arr[i][j] = arr[i-1][j];
+                } else if (arr[i - 1][j] > arr[i][j - 1]) {
+                    arr[i][j] = arr[i - 1][j];
                     arrChar[i][j] = '|';
-                } else{
-                    arr[i][j] = arr[i][j-1];
+                } else {
+                    arr[i][j] = arr[i][j - 1];
                     arrChar[i][j] = '-';
                 }
             }
         }
+        System.out.println(arr[lenOne][lenTwo]);
     }
 
     void printLS(){

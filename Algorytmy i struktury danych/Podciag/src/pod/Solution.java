@@ -4,9 +4,15 @@ public class Solution {
 
     public static void main(String[] args){
 
-        Substring s1 = new Substring("abbaac","bacbacba");
-        s1.longestSubstring();
-        s1.printSub(s1.getSubOne().length()-1,s1.getSubTwo().length()-1);
-
+        Substring s1 = new Substring("beeaaebaaedbdaedaddcdedcccaebcadbdbcaeeeaecdbdedccadaeccacbabadaddcadbaebdbecbdeceddeebbcaedcdeabecc","bcbdbdbceaeebcaebacacecdcdedeadbddadaebbaddbdaadccaabdeeeccbccceadeeebcdabaaaecccdbecdbccbadbcedeadd");
+        Substring s2 = new Substring("bcbdbdbceaeebcaebacacecdcdedeadbddadaebbaddbdaadccaabdeeeccbccceadeeebcdabaaaecccdbecdbccbadbcedeaddccdaaeacbaceadecbaedceebcecccdbbeeedabcbcdddbeceadadcbbabbcddaaedccabccceacdbdaeaaadddeeabebeaeebaeaecdadcbcdbdbaacdceecaadbdeadbcaaeeaabadaaccccbacebcdeaccceebedceebbbaddceadbaadbdcedcaeaaddbaccccaabdadedaadbeebeddedceaacebecabbeceeddbecdaedcbbbccaaccebebbdbaaacedeceadeaaababccebdcedcaceecabdaccdadbcdbbebbcbeaaecbeecaeaeebdaecbeabaeaadbecdabbdbdaacdbcbdebaaddeacbacdccaaaceddaccceaceabebabbddaacddabbbccaadcaabdbcbaabcccceaedbeeccbdeaadabacdbbcaebececeeebacdcedaddacdcdcdebdcdbcceedaedaadcccbdeacbcdbdcbbdbeeabccacadbabbeabbacbdadddddadeadbcddcaeaaadbabddcbaaaeeeeadaebedbaadadbbecaccedddcccacaedceebedeeebeebbddedceddbecbbaeeaedddabbbceebadabcecedacbeeebaeadeeabcbdccdcdccaecbdadaccddadeabcbaddceceabeecbcddeacacdabdccbeedcbabbaeabbecdeddcaccbddabeddeaecbcbabbbcaebeabbeedeaaceaeceedaececdedadddaecbbaaaccdabddcacdbcdbabdbdccdbabeebecbbecddbdbebccaabeacabcebcdaaebceecdacecdccaaadaacbedcdecebddcd",
+                "beeaaebaaedbdaedaddcdedcccaebcadbdbcaeeeaecdbdedccadaeccacbabadaddcadbaebdbecbdeceddeebbcaedcdeabeccbacbebcbbcbdceadeedeabedacddecebecbdaccdaddaaacabeedcbbbabcdccdbcacededddcabeebdeccdebcaceebabddacaadecedaaadacbbacbcdbdeeebebdcecedddbccebbabaadbbabbcdacccdcddebcaecddeeacabcabbeecacedabbecddabccdbdeaeacaeaabecaedeadbceadbdceccedddccaebebcaadacbbecdceedbdadedacbbcebbcacbadcaddcaababbeecaaeadcaeaabaceeeebaebaaecdadaacdddccddddacbcaeacadbddeaaedeaeedcaedcabeceeeecdebddccdbbcbdabacbaaddbdeacdeacacddbeeaeabcbdcbebbdcceebecabecacebdcbabddcedeaedbdaaaeacdedcbbbbadeeaccdadeddecadbababddeecbeabbbcbeebbaedeeacbcdaecebbabceedabbaedaaaeebbceabbcddbadcabccdaccbddaeeecbaaabbabddedebabebdabccaddbecebdbcaaccacbaeebbbeceddbeddbdcaaeaeccdbccaacdddcdccdeecdddbcdbeceebadabbceaaadedcdbaadbdcccecadabadcdedbaacdadaabecbeceadeeddadbdaddeccceccbceacbaeacccccdcdbdcccedcedebbcabaddebcabbbbdddddaebdadebceeeedeceabdecdbcebbbcaacbaaadbabeededeecdbcddeccadaebbabeacaaabbabddbbbcccdabebabbbecbcdabadeeddcedbaeeedbebdac");
+        //s1.longestSubstring();
+        //s1.printSub(s1.getSubOne().length()-1,s1.getSubTwo().length()-1);
+        //System.out.println();
+        //s2.longestSubstring();
+        //s2.printSub(s2.getSubOne().length()-1,s2.getSubTwo().length()-1);
+        s1.printLS();
+        s1.printLSC();
     }
 }
