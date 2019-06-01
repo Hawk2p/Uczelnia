@@ -68,12 +68,17 @@
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="408">
 <<<<<<< HEAD
               <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
 =======
               <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
+=======
+            <state relative-caret-position="323">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+>>>>>>> parent of 9c2e8db... categories added
 =======
             <state relative-caret-position="323">
               <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -91,11 +96,16 @@
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="51">
               <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
 =======
             <state relative-caret-position="484">
               <caret line="39" column="83" lean-forward="true" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
+=======
+            <state relative-caret-position="51">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+>>>>>>> parent of 9c2e8db... categories added
 =======
             <state relative-caret-position="51">
               <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
@@ -138,6 +148,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="41" />
     <option name="width" value="1619" />
@@ -150,11 +161,16 @@
     <option name="height" value="1056" />
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
 =======
+=======
+>>>>>>> parent of 9c2e8db... categories added
   <component name="ProjectFrameBounds">
     <option name="x" value="-1694" />
     <option name="y" value="46" />
     <option name="width" value="1579" />
     <option name="height" value="996" />
+<<<<<<< HEAD
+>>>>>>> parent of 9c2e8db... categories added
+=======
 >>>>>>> parent of 9c2e8db... categories added
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -206,10 +222,13 @@
     <property name="dynamic.classpath" value="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/AplikacjaSklepu" />
 =======
     <property name="last_opened_file_path" value="D:/Github/Uczelnia/Aplikacje bazodanowe/ProjektZaliczeniowy" />
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
+=======
+>>>>>>> parent of 9c2e8db... categories added
 =======
 >>>>>>> parent of 9c2e8db... categories added
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -321,6 +340,7 @@
       <workItem from="1558347805796" duration="1923000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1558359996827" duration="45000" />
       <workItem from="1558360178051" duration="134000" />
 =======
@@ -330,10 +350,13 @@
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
 =======
 >>>>>>> parent of 9c2e8db... categories added
+=======
+>>>>>>> parent of 9c2e8db... categories added
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="8514000" />
@@ -347,13 +370,20 @@
 =======
     <option name="totallyTimeSpent" value="8335000" />
 >>>>>>> parent of 9c2e8db... categories added
+=======
+    <option name="totallyTimeSpent" value="8335000" />
+>>>>>>> parent of 9c2e8db... categories added
   </component>
   <component name="ToolWindowManager">
     <frame x="-1694" y="46" width="1579" height="996" extended-state="0" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15671642" />
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18630677" />
+>>>>>>> parent of 9c2e8db... categories added
 =======
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18630677" />
 >>>>>>> parent of 9c2e8db... categories added
@@ -366,12 +396,17 @@
       <window_info anchor="bottom" id="Message" order="0" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2277937" />
 =======
       <window_info anchor="bottom" id="Find" order="1" weight="0.2156013" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2936078" />
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
+>>>>>>> parent of 9c2e8db... categories added
 =======
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32908458" />
@@ -438,12 +473,17 @@
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="408">
 <<<<<<< HEAD
           <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
 =======
           <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
+=======
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+>>>>>>> parent of 9c2e8db... categories added
 =======
         <state relative-caret-position="51">
           <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
@@ -455,6 +495,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
@@ -485,15 +526,22 @@
 =======
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
 >>>>>>> parent of 9c2e8db... categories added
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+>>>>>>> parent of 9c2e8db... categories added
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
             <element signature="e#885#886#0" expanded="true" />
             <element signature="e#930#931#0" expanded="true" />
 >>>>>>> 9c2e8db935abd4a15343171c2de887cad594b368
+=======
+            <element signature="e#676#677#0" expanded="true" />
+>>>>>>> parent of 9c2e8db... categories added
 =======
             <element signature="e#676#677#0" expanded="true" />
 >>>>>>> parent of 9c2e8db... categories added
