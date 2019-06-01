@@ -1,2 +1,0 @@
-# Uczelnia
-Zadania do zajęć
