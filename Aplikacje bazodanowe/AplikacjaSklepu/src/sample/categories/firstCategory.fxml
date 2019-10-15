@@ -19,7 +19,7 @@
                <children>
                   <ImageView fitHeight="175.0" fitWidth="200.0">
                      <image>
-                        <Image url="@../ram.jpg" />
+                        <Image url="@../../ram.jpg" />
                      </image>
                   </ImageView>
                   <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
@@ -95,7 +95,7 @@
                <children>
                   <ImageView fitHeight="200.0" fitWidth="200.0">
                      <image>
-                        <Image url="@../procesor.png" />
+                        <Image url="@../../procesor.png" />
                      </image>
                   </ImageView>
                   <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">

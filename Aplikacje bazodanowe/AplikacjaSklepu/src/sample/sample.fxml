@@ -35,32 +35,39 @@
             </Pane>
             <Pane layoutX="544.0" layoutY="14.0" prefHeight="165.0" prefWidth="466.0">
                <children>
-                  <Text fx:id="money" layoutX="181.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0,00">
-                     <font>
-                        <Font size="34.0" />
-                     </font>
-                  </Text>
                   <Button fx:id="opbutton" layoutX="212.0" layoutY="94.0" mnemonicParsing="false" onAction="#clearBucket" prefHeight="57.0" prefWidth="158.0" />
                   <ImageView fitHeight="104.0" fitWidth="101.0" layoutX="26.0" layoutY="26.0">
                      <image>
                         <Image url="@../indeks.png" />
                      </image>
                   </ImageView>
-                  <Text layoutX="252.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLN / ">
-                     <font>
-                        <Font size="34.0" />
-                     </font>
-                  </Text>
-                  <Text fx:id="amountOfItems" layoutX="351.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
-                     <font>
-                        <Font size="34.0" />
-                     </font>
-                  </Text>
-                  <Text layoutX="377.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="szt">
-                     <font>
-                        <Font size="34.0" />
-                     </font>
-                  </Text>
+                  <HBox alignment="CENTER" layoutX="169.0" prefHeight="92.0" prefWidth="270.0">
+                     <children>
+                        <Text fx:id="money" strokeType="OUTSIDE" strokeWidth="0.0" text="0,00">
+                           <font>
+                              <Font size="34.0" />
+                           </font>
+                        </Text>
+                        <Region prefHeight="200.0" prefWidth="200.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PLN / ">
+                           <font>
+                              <Font size="34.0" />
+                           </font>
+                        </Text>
+                        <Region layoutX="28.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
+                        <Text fx:id="amountOfItems" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                           <font>
+                              <Font size="34.0" />
+                           </font>
+                        </Text>
+                        <Region layoutX="162.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="szt">
+                           <font>
+                              <Font size="34.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
                </children>
             </Pane>
          </children>

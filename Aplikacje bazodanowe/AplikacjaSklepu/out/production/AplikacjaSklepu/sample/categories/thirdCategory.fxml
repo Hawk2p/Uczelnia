@@ -10,7 +10,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="1024.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <HBox prefHeight="400.0" prefWidth="1024.0">
@@ -20,116 +19,116 @@
                <children>
                   <ImageView fitHeight="177.0" fitWidth="199.0">
                      <image>
-                        <Image url="@../myszka.jpg" />
+                        <Image url="@../../sluchawki_drbeats.jpg" />
                      </image>
                   </ImageView>
                   <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                        <Text fx:id="drDrePrice" strokeType="OUTSIDE" strokeWidth="0.0" text="600">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
                         <Region prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLN    / ">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PLN   /">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
-                        <Region layoutX="178.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                        <Region prefHeight="200.0" prefWidth="200.0" />
+                        <Text fx:id="drDreAmount" strokeType="OUTSIDE" strokeWidth="0.0" text="20">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
-                        <Region layoutX="22.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="17.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sztuk">
+                        <Region prefHeight="200.0" prefWidth="200.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="sztuk">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
                      </children>
                   </HBox>
-                  <Button mnemonicParsing="false" text="Dodaj do koszyka" />
+                  <Button mnemonicParsing="false" onAction="#addDrDre" text="Dodaj do koszyka" />
                </children>
             </VBox>
             <Region layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" />
-            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+            <VBox alignment="CENTER" layoutX="534.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
                <children>
-                  <ImageView fitHeight="146.0" fitWidth="200.0">
+                  <ImageView fitHeight="156.0" fitWidth="200.0">
                      <image>
-                        <Image url="@../klawiatura_razer.jpg" />
+                        <Image url="@../../sluchawki_jbl.jpg" />
                      </image>
                   </ImageView>
                   <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                        <Text fx:id="jblPrice" strokeType="OUTSIDE" strokeWidth="0.0" text="150">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
                         <Region prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLN    / ">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PLN   /">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
-                        <Region layoutX="178.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                        <Region prefHeight="200.0" prefWidth="200.0" />
+                        <Text fx:id="jblAmount" strokeType="OUTSIDE" strokeWidth="0.0" text="50">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
-                        <Region layoutX="22.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="17.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sztuk">
+                        <Region prefHeight="200.0" prefWidth="200.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="sztuk">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
                      </children>
                   </HBox>
-                  <Button mnemonicParsing="false" text="Dodaj do koszyka" />
+                  <Button mnemonicParsing="false" onAction="#addJbl" text="Dodaj do koszyka" />
                </children>
             </VBox>
-            <Region layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" />
-            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+            <Region layoutX="122.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" />
+            <VBox alignment="CENTER" layoutX="734.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
                <children>
                   <ImageView fitHeight="177.0" fitWidth="199.0">
                      <image>
-                        <Image url="@../klawiatura_stellseries.jpg" />
+                        <Image url="@../../sluchawki_razer.jpg" />
                      </image>
                   </ImageView>
                   <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                        <Text fx:id="razerPrice" strokeType="OUTSIDE" strokeWidth="0.0" text="225">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
                         <Region prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PLN    / ">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PLN   /">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
-                        <Region layoutX="178.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                        <Region prefHeight="200.0" prefWidth="200.0" />
+                        <Text fx:id="razerAmount" strokeType="OUTSIDE" strokeWidth="0.0" text="35">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
-                        <Region layoutX="22.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
-                        <Text layoutX="17.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sztuk">
+                        <Region prefHeight="200.0" prefWidth="200.0" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="sztuk">
                            <font>
                               <Font size="22.0" />
                            </font>
                         </Text>
                      </children>
                   </HBox>
-                  <Button mnemonicParsing="false" text="Dodaj do koszyka" />
+                  <Button mnemonicParsing="false" onAction="#addRazer" text="Dodaj do koszyka" />
                </children>
             </VBox>
-            <Region layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="112.0" />
+            <Region layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="112.0" />
          </children>
       </HBox>
    </children>
